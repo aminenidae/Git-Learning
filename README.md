@@ -1,4 +1,4 @@
-Lesson 1
+Lesson 1 — “From Local Setup to First Push”
 
 | 🧩 Step                   | 💻 Command                                         | 🗒️ Explanation                                                                                          |
 | ------------------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -13,3 +13,13 @@ Lesson 1
 | 9️⃣ Connect remote        | `git remote add origin <repo-URL>`                 | Links your local repo to a GitHub repository.                                                            |
 | 🔟 Verify remote          | `git remote -v`                                    | Confirms the link between local and remote.                                                              |
 | 11️⃣ Push to GitHub       | `git push -u origin main`                          | Uploads commits to GitHub and sets up the connection for future pushes.                                  |
+
+Bonus Practice Tips
+
+Try these mini-drills for practice:
+
+After editing a file → git status, git add ., git commit -m "Updated file", git push
+
+Run git log --oneline to see a compact list of commits.
+
+Run git help <command> for built-in explanations (e.g. git help commit).
