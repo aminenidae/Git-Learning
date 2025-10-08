@@ -23,3 +23,26 @@ After editing a file → git status, git add ., git commit -m "Updated file", gi
 Run git log --oneline to see a compact list of commits.
 
 Run git help <command> for built-in explanations (e.g. git help commit).
+
+_____________________________________________________________________________________
+🧭 Lesson 2 Summary — Branching & Merging in Git
+#	Command	Meaning	Description
+1	git branch	view branches	Lists all branches in your repo. The active one has a * next to it.
+2	git branch <branch-name>	create branch	Makes a new branch but doesn’t switch to it.
+3	git checkout <branch-name>	switch branch	Moves you to another branch.
+4	git checkout -b <branch-name>	create & switch	Shortcut to create and immediately switch to a new branch.
+5	git add <file>	stage file	Prepares the file to be committed (tracked for next snapshot).
+6	git commit -m "message"	save snapshot	Saves staged changes with a description message.
+7	git merge <branch-name>	merge branch	Combines changes from the specified branch into the current one.
+8	git branch -d <branch-name>	delete branch	Safely deletes a branch that has already been merged.
+9	git log --oneline --graph --all	view history graph	Displays all commits and branches in a visual tree.
+10	git pull origin main	sync from GitHub	Downloads (fetch + merge) updates from your GitHub repository.
+💡 Concepts You Mastered
+
+A branch is a separate workspace for experimenting safely.
+
+Merging integrates changes into the main project.
+
+Deleting branches keeps your repo clean after merging.
+
+Pulling syncs your local files with GitHub’s remote version.
